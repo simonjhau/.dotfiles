@@ -1,0 +1,14 @@
+*~
+.DS_Store
+.idea/
+*.iml
+*#
+*~
+.lein-deps-sum
+.lein-plugins/
+.lein-repl-history
+.lein-failures
+node_modules/
+.clj-kondo/
+.lsp/
+.env

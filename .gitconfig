@@ -1,0 +1,18 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Simon Au
+	email = 35642295+simonjhau@users.noreply.github.com
+[core]
+	excludesfile = /Users/simonau/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/simonau/.stCommitMsg
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+[push]
+	autoSetupRemote = true
